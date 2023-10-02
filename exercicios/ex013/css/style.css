@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', 'Courier New',Courier, monospace;
+}
+
+a {
+    color: #1f8daf; 
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(180deg ,#3496F6, #34F681);
+    background-attachment: fixed;
+}
+
+main {
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #2c91d4;
+    background-color: #B8F1FF;
+    padding: 10px;
+    
+}
+
+h1 {
+    border-radius: 20px;
+    background-color: #50ddc1;
+    text-align: center;
+    color: #2CADD4;
+    text-shadow: 3px 2px 2px #2473a7;
+}
+
+h2 {
+    margin-left: 50px;
+    color: #3EEAE3;
+    text-shadow: 3px 2px 2px #24a0a7;
+}
+
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.current:hover {
+    background-color: #34F681;
+}
+
+.pagnavi .pag-larger:hover {
+    background-color: #34F681;
+}
+
+.pagnavi {
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.pagnavi .pag-larger {
+    border: 2px solid rgb(1, 96, 77);
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 25px;
+    background-color: #6bd8f3;
+    box-shadow: 0px 0px 10px rgb(0, 106, 255);
+}
+
+.current {
+    border: 2px solid rgb(1, 96, 77);
+    font-weight: 700;
+    cursor: pointer;
+    color: #1f8daf; 
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: #6bd8f3;
+    box-shadow: 0px 0px 10px rgb(0, 106, 255);
+}
